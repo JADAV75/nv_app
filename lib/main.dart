@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:nv_app/columnexperiment.dart';
 import 'package:nv_app/containerex.dart';
 import 'package:nv_app/calculatorview.dart';
@@ -16,9 +17,10 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
         debugShowCheckedModeBanner: false, home: StopwatchExperiemnt()
-        // home: CalculatorPart()
+        //home: CalculatorPart()
         // home: ColumnExperiment(),
         // home: CustomContainer(),
+        
         // home: Scaffold(
         //   body: CustomContainer(),
         //   // body: Center(
